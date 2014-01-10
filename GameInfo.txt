@@ -1,0 +1,41 @@
+"GameInfo"
+{
+	"game"		"HL2 ASW Engine"
+	"title"		"Half-Life 2"
+	"type"		"singleplayer_only"	// multiplayer? No-no-no-no-no.
+	"developer"	"Strider[RUS] with help of Aluminium Ken, Levan, Hopeless CatE and many others..."
+
+	GameData	"swarm.fgd"
+	InstancePath 	"tilegen/instances/"
+	
+	SupportsDX8     0
+	
+	"FileSystem"
+	{
+		"SteamAppId"		"630"
+		"ToolsAppId"		"211"
+		"AdditionalContentId"	"420" // Sadface :C [str]
+		
+		"SearchPaths"
+		{
+			"Game"	"|gameinfo_path|."
+
+			"Game"	"../SourceFilmmaker/game/ep2_workshop"		// This is workaround for ep2 content mounting
+			"Game"	"../SourceFilmmaker/game/hl2"			// This is workaround for hl2 content mounting
+
+			//"Game"	"|all_source_engine_paths|ep2"		// Episode 2 Folder
+			//"Game"	"|all_source_engine_paths|episodic"	// Episode 1 Folder
+			//"Game"	"|all_source_engine_paths|sourcetest"	// SSDK Base Orange Box Folder
+
+
+			"Game"	"|all_source_engine_paths|ep2"		// Episode 2 Folder
+			"Game"	"|all_source_engine_paths|hl2"		// Half-Life 2 Folder
+
+
+			"Game"	"swarm"				// Alien Swarm Folder
+			"Game"	"swarm_base"			// ASW Base Folder
+
+			"Game"	"platform"
+		}
+	}
+}
