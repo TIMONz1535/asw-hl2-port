@@ -4,6 +4,7 @@
 	"title"		"Half-Life 2"
 	"type"		"singleplayer_only"	// multiplayer? No-no-no-no-no.
 	"developer"	"Strider[RUS] with help of Aluminium Ken, Levan, Hopeless CatE and many others..."
+	"developer_url"	"https://code.google.com/p/asw-hl2-port"
 
 	GameData	"swarm.fgd"
 	InstancePath 	"tilegen/instances/"
