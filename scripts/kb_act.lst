@@ -37,6 +37,7 @@
 "load quick"			"#Valve_Quick_Load"
 "pause"					"#Valve_Pause_Game"
 "quit"					"#Valve_Quit_Game"
+"toggleconsole"			"#Valve_Console_Toggle"
 "blank"			"=========================="
 "blank"			"#Valve_Miscellaneous_Keyboard_Keys_Title"
 "blank"			"=========================="
