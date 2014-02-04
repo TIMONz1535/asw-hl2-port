@@ -1,14 +1,15 @@
 "GameInfo"
 {
 	"game"		"HL2 ASW Engine"
-	"title"		"Half-Life 2"
-	"type"		"singleplayer_only"	// multiplayer? No-no-no-no-no.
+	"title"		"Title In Gameinfo.txt"			//are we even using it?
+	"type"		"singleplayer_only"
+
 	"developer"	"Strider[RUS] with help of Aluminum Ken, Levan, Hopeless CatE and many others..."
 	"developer_url"	"https://code.google.com/p/asw-hl2-port"
+
 	"icon"		"icon"
 
 	GameData	"swarm.fgd"
-	InstancePath 	"tilegen/instances/"
 	
 	SupportsDX8     0
 	
@@ -16,26 +17,23 @@
 	{
 		"SteamAppId"		"630"
 		"ToolsAppId"		"211"
-		"AdditionalContentId"	"420" // Sadface :C [str]
 		
 		"SearchPaths"
 		{
 			"Game"	"|gameinfo_path|."
 
+			// Default ("./") path for ASW is "/steamapps/common/Alien Swarm", so we can easily go up and mount SFM content
+			// TODO: Better solution if possible.
 			"Game"	"../SourceFilmmaker/game/ep2_workshop"		// This is workaround for ep2 content mounting
 			"Game"	"../SourceFilmmaker/game/hl2"			// This is workaround for hl2 content mounting
 
-			//"Game"	"|all_source_engine_paths|ep2"		// Episode 2 Folder
-			//"Game"	"|all_source_engine_paths|episodic"	// Episode 1 Folder
-			//"Game"	"|all_source_engine_paths|sourcetest"	// SSDK Base Orange Box Folder
+			// Just let it be. Maybe it'll help.
+			"Game"	"|all_source_engine_paths|ep2"			// Episode 2 Folder
+			"Game"	"|all_source_engine_paths|hl2"			// Half-Life 2 Folder
 
 
-			"Game"	"|all_source_engine_paths|ep2"		// Episode 2 Folder
-			"Game"	"|all_source_engine_paths|hl2"		// Half-Life 2 Folder
-
-
-			"Game"	"swarm"				// Alien Swarm Folder
-			"Game"	"swarm_base"			// ASW Base Folder
+			"Game"	"swarm"						// Alien Swarm Folder
+			"Game"	"swarm_base"					// ASW Base Folder
 
 			"Game"	"platform"
 		}
