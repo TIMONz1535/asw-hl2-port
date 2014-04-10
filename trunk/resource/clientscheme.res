@@ -223,14 +223,14 @@ Scheme
 			"1"
 			{
 				"name"		"Courier New"
-				"tall"		"14"	[!$GAMECONSOLE]
-				"tall"		"18"	[$GAMECONSOLE]
+				"tall"		"14"	[!$X360]
+				"tall"		"18"	[$X360]
 				"weight"	"400"
 				"antialias" "1"
 			}
 		}
 
-		"DebugFixedSmall" [!$GAMECONSOLE]
+		"DebugFixedSmall" [!$X360]
 		{
 			"1"
 			{
@@ -241,7 +241,7 @@ Scheme
 			}
 		}
 
-		DebugOverlay [!$GAMECONSOLE]
+		DebugOverlay [!$X360]
 		{
 			"1"
 			{
@@ -252,7 +252,7 @@ Scheme
 			}
 		}
 
-		Default [!$GAMECONSOLE]
+		Default [!$X360]
 		{
 			"1"
 			{
@@ -297,7 +297,7 @@ Scheme
 			}
 		}
 
-		"DefaultSmall" [!$GAMECONSOLE]
+		"DefaultSmall" [!$X360]
 		{
 			"1"
 			{
@@ -351,7 +351,7 @@ Scheme
 			}
 		}
 
-		"DefaultVerySmall" [!$GAMECONSOLE]
+		"DefaultVerySmall" [!$X360]
 		{
 			"1"
 			{
@@ -412,7 +412,7 @@ Scheme
 			}
 		}
 
-		WeaponIcons [!$GAMECONSOLE]
+		WeaponIcons [!$X360]
 		{
 			"1"
 			{
@@ -426,7 +426,7 @@ Scheme
 			}
 		}
 
-		WeaponIconsSelected [!$GAMECONSOLE]
+		WeaponIconsSelected [!$X360]
 		{
 			"1"
 			{
@@ -442,7 +442,7 @@ Scheme
 			}
 		}
 
-		WeaponIconsSmall [!$GAMECONSOLE]
+		WeaponIconsSmall [!$X360]
 		{
 			"1"
 			{
@@ -455,7 +455,7 @@ Scheme
 			}
 		}
 
-		Crosshairs [!$GAMECONSOLE]
+		Crosshairs [!$X360]
 		{
 			"1"
 			{
@@ -466,21 +466,20 @@ Scheme
 			}
 		}
 
-		QuickInfo [!$GAMECONSOLE]
+		QuickInfo [!$X360]
 		{
 			"1"
 			{
 				"name"		"HL2cross"
-				"tall"		"28" [!$OSX]
-				"tall"		"50" [$OSX]
+				"tall"		"28" [$WIN32]
 				"weight"	"0"
 				"antialias" "1"
 				"additive"	"1"
-				"custom"	"1" [!$OSX]
+				"custom"	"1" [$WIN32]
 			}
 		}
 
-		HudNumbers [!$GAMECONSOLE]
+		HudNumbers [!$X360]
 		{
 			"1"
 			{
@@ -493,7 +492,7 @@ Scheme
 			}
 		}
 
-		SquadIcon	[!$GAMECONSOLE]
+		SquadIcon	[!$X360]
 		{
 			"1"
 			{
@@ -506,7 +505,7 @@ Scheme
 			}
 		}
 
-		HudNumbersGlow [!$GAMECONSOLE]
+		HudNumbersGlow [!$X360]
 		{
 			"1"
 			{
@@ -521,7 +520,7 @@ Scheme
 			}
 		}
 
-		HudNumbersSmall [!$GAMECONSOLE]
+		HudNumbersSmall [!$X360]
 		{
 			"1"
 			{
@@ -534,7 +533,7 @@ Scheme
 			}
 		}
 
-		HudSelectionNumbers [!$GAMECONSOLE]
+		HudSelectionNumbers [!$X360]
 		{
 			"1"
 			{
@@ -546,7 +545,7 @@ Scheme
 			}
 		}
 
-		HudHintTextLarge [!$GAMECONSOLE]
+		HudHintTextLarge [!$X360]
 		{
 			"1"
 			{
@@ -558,7 +557,7 @@ Scheme
 			}
 		}
 
-		HudHintTextSmall [!$GAMECONSOLE]
+		HudHintTextSmall [!$X360]
 		{
 			"1"
 			{
@@ -570,7 +569,7 @@ Scheme
 			}
 		}
 
-		HudSelectionText [!$GAMECONSOLE]
+		HudSelectionText [!$X360]
 		{
 			"1"
 			{
@@ -614,7 +613,7 @@ Scheme
 			}
 		}
 
-		BudgetLabel [!$GAMECONSOLE]
+		BudgetLabel [!$X360]
 		{
 			"1"
 			{
@@ -626,7 +625,7 @@ Scheme
 		}
 
 		// this is the symbol font
-		"Marlett" [!$GAMECONSOLE]
+		"Marlett" [!$X360]
 		{
 			"1"
 			{
@@ -637,7 +636,7 @@ Scheme
 			}
 		}
 
-		"Trebuchet24" [!$GAMECONSOLE]
+		"Trebuchet24" [!$X360]
 		{
 			"1"
 			{
@@ -650,7 +649,7 @@ Scheme
 			}
 		}
 
-		"Trebuchet18" [!$GAMECONSOLE]
+		"Trebuchet18" [!$X360]
 		{
 			"1"
 			{
@@ -660,7 +659,7 @@ Scheme
 			}
 		}
 
-		ClientTitleFont [!$GAMECONSOLE]
+		ClientTitleFont [!$X360]
 		{
 			"1"
 			{
@@ -673,7 +672,7 @@ Scheme
 			}
 		}
 
-		HDRDemoText [!$GAMECONSOLE]
+		HDRDemoText [!$X360]
 		{
 			// note that this scales with the screen resolution
 			"1"
@@ -686,7 +685,7 @@ Scheme
 			}
 		}
 				
-		"LargeHUDTitle" [!$GAMECONSOLE]
+		"LargeHUDTitle" [!$X360]
 		{
 			"1"
 			{
@@ -694,278 +693,6 @@ Scheme
 				"tall"		"20"
 				"weight"	"400"
 				"antialias" "1"
-			}
-		}
-
-		"ItemFontNameSmallest"
-		{
-			"1"
-			{
-				"name"		"UniversLTStd-Cn" [$OSX]
-				"name"		"UniversLTStd-BoldCn" [!$OSX]
-				"tall"		"10"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"ItemFontNameSmall"
-		{
-			"1"
-			{
-				"name"		"UniversLTStd-Cn" [$OSX]
-				"name"		"UniversLTStd-BoldCn" [!$OSX]
-				"tall"		"11"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"ItemFontNameLarge"
-		{
-			"1"
-			{
-				"name"		"UniversLTStd-Cn" [$OSX]
-				"name"		"UniversLTStd-BoldCn" [!$OSX]
-				"tall"		"15"
-				"weight"	"400"
-				"antialias"	"1"
-				"yres"	"501 6000" [$OSX]
-			}
-		}
-		"ItemFontAttribSmallest"
-		{
-			"1"
-			{
-				"name"		"UniversLTStd-Cn" [$OSX]
-				"name"		"UniversLTStd-BoldCn" [!$OSX]
-				"tall"		"7"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}
-		"ItemFontAttribSmall"
-		{
-			"1"
-			{
-				"name"		"UniversLTStd-Cn" [$OSX]
-				"name"		"UniversLTStd-BoldCn" [!$OSX]
-				"tall"		"8"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}
-		"ItemFontAttribLarge"
-		{
-			"1"
-			{
-				"name"		"UniversLTStd-Cn" [$OSX]
-				"name"		"UniversLTStd-BoldCn" [!$OSX]
-				"tall"		"11"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}	
-
-		"EconButtonTextLargeTitle"
-		{
-			"isproportional"	"only"		
-			"1"
-			{
-				"name"		"UniversLTStd-BoldCn"
-				"tall"		"30"
-				"weight"	"400"
-				"antialias"	"1"
-			}
-		}
-
-		"EconButtonTextLarge"
-		{
-			"isproportional"	"only"		
-			"1"
-			{
-				"name"		"UniversLTStd-Cn" [$OSX]
-				"name"		"UniversLTStd-BoldCn" [!$OSX]
-				"tall"		"22"
-				"weight"	"400"
-				"antialias"	"1"
-			}
-		}
-
-		"EconButtonText" [$GAMECONSOLE]
-		{
-			"isproportional"	"only"		
-			"1"
-			{
-				"name"		"UniversLTStd-Cn"
-				"tall"		"18"
-				"weight"	"400"
-				"antialias"	"1"
-			}
-		}
-	
-		"EconButtonText" [!$GAMECONSOLE]
-		{
-			"isproportional"	"only"		
-			"1" [$OSX]
-			{
-				"name"		"UniversLTStd-Cn"
-				"tall"		"16"
-				"weight"	"400"
-				"antialias"	"1"
-				"yres"	"1 500"
-			}
-			"2"
-			{
-				"name"		"UniversLTStd-BoldCn" [!$OSX]
-				"name"		"UniversLTStd-Cn" [$OSX]
-				"tall"		"15"
-				"weight"	"400"
-				"antialias"	"1"
-				"yres"	"501 6000" [$OSX]
-			}
-		}
-
-		"EconCartPrice"
-		{
-			"isproportional"	"only"		
-			"1"
-			{
-				"name"		"UniversLTStd-Cn" [$OSX]
-				"name"		"UniversLTStd-BoldCn" [!$OSX]
-				"tall"		"16"
-				"weight"	"400"
-				"antialias"	"1"
-			}
-		}
-
-		"EconCartTotal"
-		{
-			"isproportional"	"only"		
-			"1"
-			{
-				"name"		"UniversLTStd-Cn" [$OSX]
-				"name"		"UniversLTStd-BoldCn" [!$OSX]
-				"tall"		"20"
-				"weight"	"400"
-				"antialias"	"1"
-			}
-		}
-
-		"EconStorePrice"
-		{
-			"isproportional"	"only"		
-			"1"
-			{
-				"name"		"UniversLTStd-Cn" [$OSX]
-				"name"		"UniversLTStd-BoldCn" [!$OSX]
-				"tall"		"18"
-				"weight"	"400"
-				"antialias"	"1"
-			}
-		}
-
-		"EconStorePriceOriginal"
-		{
-			"isproportional"	"only"		
-			"1"
-			{
-				"name"		"UniversLTStd-Cn" [$OSX]
-				"name"		"UniversLTStd-BoldCn" [!$OSX]
-				"tall"		"18"
-				"weight"	"400"
-				"antialias"	"1"
-			}
-		}
-
-		"EconFontStoreTitle"
-		{
-			"isproportional"	"only"		
-			"1"
-			{
-				"name"		"UniversLTStd-Cn"
-				"tall"		"34"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"EconFontMediumBold"
-		{
-			"isproportional"	"only"		
-			"1"
-			{
-				"name"		"UniversLTStd-Cn" [$OSX]
-				"name"		"UniversLTStd-BoldCn" [!$OSX]
-				"tall"		"24"
-				"weight"	"400"
-				"antialias"	"1"
-			}
-		}
-
-		"EconFontMediumSmallBold"
-		{
-			"isproportional"	"only"		
-			"1"
-			{
-				"name"		"UniversLTStd-Cn" [$OSX]
-				"name"		"UniversLTStd-BoldCn" [!$OSX]
-				"tall"		"14"
-				"weight"	"400"
-				"antialias"	"1"
-			}
-		}
-
-		"EconFontSmall"
-		{
-			"isproportional"	"only"		
-			"1"
-			{
-				"name"		"UniversLTStd-Cn"
-				"tall"		"14"
-				"weight"	"400"
-				"antialias"	"1"
-			}
-		}
-
-		"EconFontSmallBold"
-		{
-			"isproportional"	"only"		
-			"1"
-			{
-				"name"		"UniversLTStd-Cn" [$OSX]
-				"name"		"UniversLTStd-BoldCn" [!$OSX]
-				"tall"		"14"
-				"weight"	"400"
-				"antialias"	"1"
-			}
-		}
-
-		"EconFontSmallestBold"
-		{
-			"isproportional"	"only"		
-			"1"
-			{
-				"name"		"UniversLTStd-Cn" [$OSX]
-				"name"		"UniversLTStd-BoldCn" [!$OSX]
-				"tall"		"12"
-				"weight"	"400"
-				"antialias"	"1"
-			}
-		}
-
-		"EconFontSmallest"
-		{
-			"isproportional"	"only"		
-			"1"
-			{
-				"name"		"UniversLTStd-Cn"
-				"tall"		"12"
-				"weight"	"400"
-				"antialias"	"1"
 			}
 		}
 
@@ -977,145 +704,6 @@ Scheme
 	// describes all the border types
 	Borders
 	{
-		LoadoutItemBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_item_bg"
-			"src_corner_height"		"16"				// pixels inside the image
-			"src_corner_width"		"16"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
-		}
-		LoadoutItemMouseOverBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_item_bg_highlight"
-			"src_corner_height"		"16"				// pixels inside the image
-			"src_corner_width"		"16"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
-		}
-		ItemSelectionBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_item_sel_bg"
-			"src_corner_height"		"16"				// pixels inside the image
-			"src_corner_width"		"16"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
-		}
-		ItemPickupBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_item_pickup_bg"
-			"src_corner_height"		"16"				// pixels inside the image
-			"src_corner_width"		"16"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
-		}
-		LoadoutItemPopupBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_preview_bg"
-		}
-		EconButtonDefault
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"btn_bg"
-			"src_corner_height"		"16"				// pixels inside the image
-			"src_corner_width"		"16"
-			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"2"	
-		}
-		EconButtonMouseOver
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"btn_bg_over"
-			"src_corner_height"		"16"				// pixels inside the image
-			"src_corner_width"		"16"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
-		}
-		EconFooterButtonBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_bottom_bar_button_bg"
-			"src_corner_height"		"16"				// pixels inside the image
-			"src_corner_width"		"16"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
-		}
-		EconFooterButtonMouseOverBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_bottom_bar_button_highlight_bg"
-			"src_corner_height"		"16"				// pixels inside the image
-			"src_corner_width"		"16"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
-		}
-		EconDialogBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_default_dialog"
-			"src_corner_height"		"16"				// pixels inside the image
-			"src_corner_width"		"16"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"
-		}
-		BackpackItemBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_backpack_bg"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"	
-		}
-		BackpackItemMouseOverBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_backpack_bg_highlight"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"	
-		}
-		BackpackItemSelectedBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_backpack_bg_highlight"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"	
-		}
 		GrayDialogBorder
 		{
 			"bordertype"			"scalable_image"
@@ -1149,59 +737,7 @@ Scheme
 			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"8"
 		}
-		StorePreviewTabSelected
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"btn_bg"
-			"src_corner_height"		"16"				// pixels inside the image
-			"src_corner_width"		"16"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"
-		}
-		StorePreviewTabUnselected
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"btn_bg"
-			"src_corner_height"		"16"				// pixels inside the image
-			"src_corner_width"		"16"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"
-		}
-		StoreDiscountBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"			
-			"image"					"store/store_discount_corner"
-			"src_corner_height"		"32"				// pixels inside the image
-			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
-		}
-		StorePreviewBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"btn_bg"
-		}
-		StoreIconPreviewBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_preview_bg"
-		}
-		StorePreviewTooltip
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_tooltip_bg"
-		}
+
 		ItemBaseBorder
 		{
 			"bordertype"			"scalable_image"
@@ -1213,90 +749,12 @@ Scheme
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
 		}
-		StoreTabActive
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_tab_selected"
-			"src_corner_height"		"16"				// pixels inside the image
-			"src_corner_width"		"16"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
-		}
-		StoreTabNormal
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_tab_unselected"
-			"src_corner_height"		"16"				// pixels inside the image
-			"src_corner_width"		"16"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
-		}
-		StoreBlueButton
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"btn_econ_blue"
-			"src_corner_height"		"16"				// pixels inside the image
-			"src_corner_width"		"16"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
-		}
-		StoreBlueOverButton
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/button_econ_blue_over"
-			"src_corner_height"		"16"				// pixels inside the image
-			"src_corner_width"		"16"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
-		}
-
-		StoreItemBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_backpack_bg"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"	
-		}
-		StoreItemMouseOverBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_backpack_bg_highlight"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"	
-		}
-		StoreItemSelectedBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_backpack_bg_highlight"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"	
-		}
 	}
 
 	//////////////////////// CUSTOM FONT FILES /////////////////////////////
 	//
 	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
-	CustomFontFiles [!$GAMECONSOLE]
+	CustomFontFiles [!$X360]
 	{
 		"1"		"resource/HALFLIFE2.vfont"
 		"2"		"resource/HL2crosshairs.vfont"

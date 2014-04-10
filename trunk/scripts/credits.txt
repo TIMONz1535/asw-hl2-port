@@ -51,6 +51,7 @@
 	" "	"CreditsOutroText"
 	" "	"CreditsOutroText"
 	"Big thanks to"    "CreditsOutroText"
+	"Andrey 'AndreaZzZ' Perevozchikov"    "CreditsOutroText"
 	"Anton 'Levan' Levchuk"    "CreditsOutroText"
 	"Ken 'Aluminum Ken' Chan"    "CreditsOutroText"
 	"Vladimir 'Hopeless CatE' Rojkov"    "CreditsOutroText"
