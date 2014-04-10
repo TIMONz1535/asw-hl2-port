@@ -50,7 +50,7 @@ Scheme
 		Button.BgColor					"Blank"
 		Button.ArmedTextColor			"White"
 		Button.ArmedBgColor				"Blank"				[$WIN32]
-		Button.ArmedBgColor				"190 115 0 255"		[$GAMECONSOLE]
+		Button.ArmedBgColor				"190 115 0 255"		[$X360]
 		Button.DepressedTextColor		"White"
 		Button.DepressedBgColor			"Blank"
 		Button.FocusBorderColor			"Black"
@@ -71,12 +71,12 @@ Scheme
 		Frame.ClientInsetX				8
 		Frame.ClientInsetY				6
 		Frame.BgColor					"160 160 160 128"	[$WIN32]
-		Frame.BgColor					"80 80 80 192"		[$GAMECONSOLE]
+		Frame.BgColor					"80 80 80 192"		[$X360]
 		Frame.OutOfFocusBgColor			"160 160 160 32"	[$WIN32]
-		Frame.OutOfFocusBgColor			"80 80 80 192"		[$GAMECONSOLE]
+		Frame.OutOfFocusBgColor			"80 80 80 192"		[$X360]
 		Frame.FocusTransitionEffectTime	"0.3"							// time it takes for a window to fade in/out on focus/out of focus
 		Frame.TransitionEffectTime		"0.3"				[$WIN32]	// time it takes for a window to fade in/out on open/close
-		Frame.TransitionEffectTime		"0.2"				[$GAMECONSOLE]		// time it takes for a window to fade in/out on open/close
+		Frame.TransitionEffectTime		"0.2"				[$X360]		// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"0"
 		FrameGrip.Color1				"200 200 200 196"
 		FrameGrip.Color2				"0 0 0 196"
@@ -196,13 +196,13 @@ Scheme
 
 		// scheme-specific colors
 		MainMenu.TextColor			"White"				[$WIN32]
-		MainMenu.TextColor			"200 200 200 255"	[$GAMECONSOLE]
+		MainMenu.TextColor			"200 200 200 255"	[$X360]
 		MainMenu.ArmedTextColor		"200 200 200 255"	[$WIN32]
-		MainMenu.ArmedTextColor		"White"				[$GAMECONSOLE]
+		MainMenu.ArmedTextColor		"White"				[$X360]
 		MainMenu.DepressedTextColor	"192 186 80 255"
 		MainMenu.MenuItemHeight		"30"				[$WIN32]
-		MainMenu.MenuItemHeight			"22"				[$GAMECONSOLE]
-		MainMenu.MenuItemHeight_hidef	"32"				[$GAMECONSOLE]
+		MainMenu.MenuItemHeight			"22"				[$X360]
+		MainMenu.MenuItemHeight_hidef	"32"				[$X360]
 		MainMenu.Inset				"32"
 		MainMenu.Backdrop			"0 0 0 156"
 
@@ -212,14 +212,14 @@ Scheme
 		NewGame.TextColor			"White"
 		NewGame.FillColor			"0 0 0 255"
 		NewGame.SelectionColor		"Orange"			[$WIN32]
-		NewGame.SelectionColor		"0 0 0 255"			[$GAMECONSOLE]
+		NewGame.SelectionColor		"0 0 0 255"			[$X360]
 		NewGame.DisabledColor		"128 128 128 196"
 
-		MessageDialog.MatchmakingBG			"46 43 42 255"	[$GAMECONSOLE]
-		MessageDialog.MatchmakingBGBlack			"22 22 22 255"	[$GAMECONSOLE]
+		MessageDialog.MatchmakingBG			"46 43 42 255"	[$X360]
+		MessageDialog.MatchmakingBGBlack			"22 22 22 255"	[$X360]
 		
-		MatchmakingMenuItemTitleColor			"200 184 151 255"	[$GAMECONSOLE]
-		MatchmakingMenuItemDescriptionColor		"200 184 151 255"	[$GAMECONSOLE]
+		MatchmakingMenuItemTitleColor			"200 184 151 255"	[$X360]
+		MatchmakingMenuItemDescriptionColor		"200 184 151 255"	[$X360]
 	}
 
 	//////////////////////// FONTS /////////////////////////////
@@ -236,14 +236,14 @@ Scheme
 			"1"
 			{
 				"name"		"Courier New"
-				"tall"		"10"			[!$GAMECONSOLE]
-				"tall"		"18"			[$GAMECONSOLE]
+				"tall"		"10"			[!$X360]
+				"tall"		"18"			[$X360]
 				"weight"	"400"
 				"antialias" "1"
 			}
 		}
 
-		"DebugFixedSmall" [!$GAMECONSOLE]
+		"DebugFixedSmall" [!$X360]
 		{
 			"1"
 			{
@@ -254,7 +254,7 @@ Scheme
 			}
 		}
 
-		"DefaultFixedOutline" [!$GAMECONSOLE]
+		"DefaultFixedOutline" [!$X360]
 		{
 			"1"
 			{
@@ -265,7 +265,7 @@ Scheme
 			}
 		}
 
-		"DefaultFixed" [!$GAMECONSOLE]
+		"DefaultFixed" [!$X360]
 		{
 			"1"
 			{
@@ -275,7 +275,7 @@ Scheme
 			}
 		}
 
-		"DefaultFixedDropShadow" [!$GAMECONSOLE]
+		"DefaultFixedDropShadow" [!$X360]
 		{
 			"1"
 			{
@@ -286,7 +286,7 @@ Scheme
 			}
 		}
 
-		"Default" [!$GAMECONSOLE]
+		"Default" [!$X360]
 		{
 			"1"
 			{
@@ -296,7 +296,7 @@ Scheme
 			}
 		}
 		
-		"DefaultBold" [!$GAMECONSOLE]
+		"DefaultBold" [!$X360]
 		{
 			"1"
 			{
@@ -306,7 +306,7 @@ Scheme
 			}
 		}
 		
-		"DefaultUnderline" [!$GAMECONSOLE]
+		"DefaultUnderline" [!$X360]
 		{
 			"1"
 			{
@@ -317,7 +317,7 @@ Scheme
 			}
 		}
 		
-		"DefaultSmall" [!$GAMECONSOLE]
+		"DefaultSmall" [!$X360]
 		{
 			"1"
 			{
@@ -327,7 +327,7 @@ Scheme
 			}
 		}
 		
-		"DefaultSmallDropShadow" [!$GAMECONSOLE]
+		"DefaultSmallDropShadow" [!$X360]
 		{
 			"1"
 			{
@@ -338,7 +338,7 @@ Scheme
 			}
 		}
 
-		"DefaultVerySmall" [!$GAMECONSOLE]
+		"DefaultVerySmall" [!$X360]
 		{
 			"1"
 			{
@@ -348,7 +348,7 @@ Scheme
 			}
 		}
 
-		"DefaultLarge" [!$GAMECONSOLE]
+		"DefaultLarge" [!$X360]
 		{
 			"1"
 			{
@@ -358,7 +358,7 @@ Scheme
 			}
 		}
 		
-		"UiBold" [!$GAMECONSOLE]
+		"UiBold" [!$X360]
 		{
 			"1"
 			{
@@ -368,7 +368,7 @@ Scheme
 			}
 		}
 		
-		"MenuLarge" [!$GAMECONSOLE]
+		"MenuLarge" [!$X360]
 		{
 			"1"
 			{
@@ -379,7 +379,7 @@ Scheme
 			}
 		}
 		
-		"AchievementTitleFont" [!$GAMECONSOLE]
+		"AchievementTitleFont" [!$X360]
 		{
 			"1"
 			{
@@ -391,7 +391,7 @@ Scheme
 			}
 		}
 		
-		"AchievementDescriptionFont" [!$GAMECONSOLE]
+		"AchievementDescriptionFont" [!$X360]
 		{
 			"1"
 			{
@@ -414,7 +414,7 @@ Scheme
 			}
 		}
 			
-		"ConsoleText" [!$GAMECONSOLE]
+		"ConsoleText" [!$X360]
 		{
 			"1"
 			{
@@ -427,7 +427,7 @@ Scheme
 		}
 
 		// this is the symbol font
-		"Marlett" [!$GAMECONSOLE]
+		"Marlett" [!$X360]
 		{
 			"1"
 			{
@@ -438,7 +438,7 @@ Scheme
 			}
 		}
 
-		"Trebuchet24" [!$GAMECONSOLE]
+		"Trebuchet24" [!$X360]
 		{
 			"1"
 			{
@@ -448,7 +448,7 @@ Scheme
 			}
 		}
 
-		"Trebuchet20" [!$GAMECONSOLE]
+		"Trebuchet20" [!$X360]
 		{
 			"1"
 			{
@@ -458,7 +458,7 @@ Scheme
 			}
 		}
 
-		"Trebuchet18" [!$GAMECONSOLE]
+		"Trebuchet18" [!$X360]
 		{
 			"1"
 			{
@@ -470,7 +470,7 @@ Scheme
 
 		// HUD numbers
 		// We use multiple fonts to 'pulse' them in the HUD, hence the need for many of near size
-		"HUDNumber" [!$GAMECONSOLE]
+		"HUDNumber" [!$X360]
 		{
 			"1"
 			{
@@ -480,7 +480,7 @@ Scheme
 			}
 		}
 		
-		"HUDNumber1" [!$GAMECONSOLE]
+		"HUDNumber1" [!$X360]
 		{
 			"1"
 			{
@@ -490,7 +490,7 @@ Scheme
 			}
 		}
 		
-		"HUDNumber2" [!$GAMECONSOLE]
+		"HUDNumber2" [!$X360]
 		{
 			"1"
 			{
@@ -500,7 +500,7 @@ Scheme
 			}
 		}
 
-		"HUDNumber3" [!$GAMECONSOLE]
+		"HUDNumber3" [!$X360]
 		{
 			"1"
 			{
@@ -510,7 +510,7 @@ Scheme
 			}
 		}
 
-		"HUDNumber4" [!$GAMECONSOLE]
+		"HUDNumber4" [!$X360]
 		{
 			"1"
 			{
@@ -520,7 +520,7 @@ Scheme
 			}
 		}
 
-		"HUDNumber5" [!$GAMECONSOLE]
+		"HUDNumber5" [!$X360]
 		{
 			"1" 
 			{
@@ -530,7 +530,7 @@ Scheme
 			}
 		}
 
-		TitleFont [!$GAMECONSOLE]
+		TitleFont [!$X360]
 		{
 			"1" 
 			{
@@ -542,7 +542,7 @@ Scheme
 			}
 		}
 
-		TitleFont2 [!$GAMECONSOLE]
+		TitleFont2 [!$X360]
 		{
 			"1"
 			{
@@ -554,7 +554,7 @@ Scheme
 			}
 		}
 		
-		AchievementItemTitle	[!$GAMECONSOLE]
+		AchievementItemTitle	[!$X360]
 		{
 			"1"
 			{
@@ -565,7 +565,7 @@ Scheme
 			}
 		}
 		
-		AchievementItemDescription	[!$GAMECONSOLE]
+		AchievementItemDescription	[!$X360]
 		{
 			"1"
 			{
@@ -1020,7 +1020,7 @@ Scheme
 	//////////////////////// CUSTOM FONT FILES /////////////////////////////
 	//
 	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
-	CustomFontFiles [!$GAMECONSOLE]
+	CustomFontFiles [!$X360]
 	{
 		"1"		"resource/HALFLIFE2.vfont"	
 		"2"		"vgui/fonts/marlett.ttf"	[$OSX]
